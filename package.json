@@ -1,0 +1,26 @@
+{
+  "name": "xt-open-api",
+  "description": "在当前项目新增 .config.json 文件，配置 accessKey 与 secretKey",
+  "version": "1.0.16",
+  "main": "lib/index.js",
+  "dependencies": {
+    "axios": "^1.6.8"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "xt-open-api"
+  ],
+  "author": "ug_lfa",
+  "license": "ISC"
+}
